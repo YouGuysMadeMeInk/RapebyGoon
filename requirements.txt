@@ -1,0 +1,8 @@
+Component	Minimum Requirement
+OS	Windows 7 64-bit
+CPU	Dual-core CPU 2.4 GHz (e.g., Intel Core 2 Duo)
+RAM	4 GB RAM
+GPU	GeForce GTS 450-class (1 GB VRAM)
+DirectX	Version 11
+Storage	7 GB available space
+Sound	DirectX compatible sound card
