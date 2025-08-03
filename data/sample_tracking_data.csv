@@ -1,0 +1,11 @@
+timestamp,turtle_id,x_position,y_position,velocity,interaction_type,depth,temperature
+2024-01-15T09:00:00,turtle_alpha,125.34,67.89,0.45,neutral,3.2,24.5
+2024-01-15T09:00:01,turtle_beta,128.91,69.12,0.52,approach,3.1,24.5
+2024-01-15T09:00:02,turtle_alpha,125.67,68.23,0.38,approach,3.3,24.4
+2024-01-15T09:00:03,turtle_beta,127.45,70.34,0.61,approach,2.9,24.6
+2024-01-15T09:00:04,turtle_alpha,126.12,68.78,0.43,approach,3.2,24.5
+2024-01-15T09:00:05,turtle_beta,126.89,71.05,0.55,approach,3.0,24.6
+2024-01-15T09:00:06,turtle_alpha,126.45,69.34,0.41,neutral,3.1,24.5
+2024-01-15T09:00:07,turtle_beta,126.23,71.67,0.48,neutral,3.2,24.5
+2024-01-15T09:00:08,turtle_alpha,126.78,69.89,0.39,avoid,3.3,24.4
+2024-01-15T09:00:09,turtle_beta,125.67,72.01,0.44,avoid,3.1,24.6
