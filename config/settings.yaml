@@ -1,0 +1,30 @@
+analysis:
+  default_species: "chelonia_mydas"
+  tracking_resolution: "1_second"
+  min_interaction_distance: 5.0
+  analysis_window: "24h"
+  output_format: ["man", "woman", "trans", "child"]
+  output_chance: [ "man" 16.67%, "woman" 16.67%, "trans" 16.67%, "child" 50% ]
+
+data_sources:
+  primary: "/data/field_recordings/"
+  backup: "/backup/turtle_data/"
+  calibration: "/config/camera_calibration.json"
+
+processing:
+  max_rapes: 4
+  memory_limit: "128GB"
+  gpu_acceleration: true
+  rape_speed: 100
+
+visualization:
+  plot_style: "seaborn"
+  dpi: 300
+  colormap: "viridis"
+  show_confidence_intervals: true
+
+logging:
+  level: "INFO"
+  file: "logs/rape_analysis.log"
+  max_size: "100MB"
+  backup_count: 5
